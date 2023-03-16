@@ -1,9 +1,9 @@
-import "./App.css";
+import MovieDetail from "./page/DetailPage/moviedetail";
 
 function App() {
   return (
     <div className="App">
-      <p>react app</p>
+      <MovieDetail />
     </div>
   );
 }
