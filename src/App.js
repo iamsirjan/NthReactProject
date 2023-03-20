@@ -1,7 +1,9 @@
+import NavbarComponent from "./layout/navbar/navbar";
+
 function App() {
   return (
     <div className="App">
-      <p>react app</p>
+      <NavbarComponent/>
     </div>
   );
 }

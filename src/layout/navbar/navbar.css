@@ -1,0 +1,44 @@
+.navbarcomponent{
+    height:50px;
+   
+    background-color: black;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    
+}
+
+.text p{
+    color: grey;
+}
+
+.search-input{
+    border:none;
+    outline: none;
+    background-color: black;
+    width:95%;
+    height: 100%;
+}
+.search{
+    width: 350px;
+    display: flex;
+    align-items: center;
+    height: 25px;
+   
+
+
+}
+.search-icon{
+    margin-right: 5px;
+}
+.bell-icon{
+    margin-right: 5px;
+}
+
+.user-image  img  {
+    border-radius: 100%;
+    width:35px;
+    height: 35px;
+    cursor: pointer;
+}
+
