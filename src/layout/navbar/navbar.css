@@ -1,4 +1,4 @@
-.navbarcomponent{
+/* .navbarcomponent{
     height:50px;
    
     background-color: black;
@@ -42,3 +42,67 @@
     cursor: pointer;
 }
 
+
+} */
+
+.navbarcomponent {
+  background-color: #000;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.left-part {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  margin-right: 20px;
+}
+
+.text {
+  margin-right: 20px;
+  color: grey;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  background-color: black;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.search-icon {
+  margin-right: 5px;
+}
+
+.search-input {
+  background-color: black;
+  border: none;
+  color: grey;
+  outline: none;
+  width: 300px;
+}
+
+.right-part {
+  display: flex;
+  align-items: center;
+}
+
+.bell-icon {
+  margin-right: 20px;
+}
+
+.user-image img {
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  cursor: pointer;
+  /* object-fit: cover; */
+}
+
+.right-part {
+  margin-left: auto;
+}

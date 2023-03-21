@@ -1,0 +1,9 @@
+.button-container button {
+  padding: 95px, 95px;
+  border-radius: 8px;
+  color: black;
+  /* font-weight: bold; */
+  border: 3px solid black;
+  font-size: 35px;
+  align-items: center;
+}
