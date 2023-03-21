@@ -1,0 +1,17 @@
+.playicon-button button{
+    background-color: #f10707;
+    border: none;
+    color: white;
+    padding: 40px 60px;
+    text-align: center;
+    align-items: center;
+    text-decoration: none;
+    /* display: inline-block; */
+    font-size: 25px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.icon-play {
+    color:#fff;
+}
