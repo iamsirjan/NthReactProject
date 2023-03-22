@@ -2,22 +2,33 @@
   font-size: 12px;
   margin-top: 20px;
   margin-bottom: 10px;
+  width: 100%;
 }
 
 .movieintroduction p {
   margin-bottom: 50px;
 }
 
-.movieintroduction span {
+.movieintroduction {
   color: darkgray;
   font-size: 12px;
   letter-spacing: 0.1em;
-  margin-right: 80px;
+  /* margin-right: 80px; */
+  /* width: 40%; */
 }
 
-.movieintroduction ul {
-  display: table;
-  margin-left: 0;
-  padding-left: 0;
-  list-style: none;
+.movieinfo-table tr td {
+  color: darkgray;
+  font-size: 12px;
+  letter-spacing: 0.1em;
+  /* margin-right: 80px; */
+  /* width: 40%; */
+}
+
+.movieinfo-table {
+  width: 100%;
+}
+
+table tr .movieinfo-table-td {
+  color: #fff;
 }

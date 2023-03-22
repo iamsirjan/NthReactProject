@@ -1,4 +1,4 @@
-import MovieDetail from "./page/DetailPage/moviedetails";
+import MovieDetail from "./Page/DetailPage/moviedetails";
 
 function App() {
   const moviesinfo = [

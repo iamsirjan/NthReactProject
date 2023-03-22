@@ -70,19 +70,33 @@ const MovieTabs = ({ intro, starting, createdby, genre }) => {
         <div className="movie-intro">
           <div className="movieintroduction">
             <p>{intro}</p>
-            <ul>
+            <table className="movieinfo-table">
+              <tr>
+                <td>Starting</td>
+                <td className="movieinfo-table-td">{starting}</td>
+              </tr>
+              <tr>
+                <td>Created by</td>
+                <td className="movieinfo-table-td">{createdby}</td>
+              </tr>
+              <tr>
+                <td>Genre</td>
+                <td className="movieinfo-table-td">{genre}</td>
+              </tr>
+            </table>
+            {/* <ul>
               <li>
-                <span clsssName="movieintroduction-span1">Starting </span>
+                <span className="movieintroduction-span">Starting </span>
                 {starting}
               </li>
               <li>
-                <span className="movieintroduction-span2">Created by</span>
+                <span className="movieintroduction-span">Created by</span>
                 {createdby}
               </li>
               <li>
-                <span className="movieintroduction-span3">Genre</span> {genre}
+                <span className="movieintroduction-span">Genre</span> {genre}
               </li>
-            </ul>
+            </ul> */}
           </div>
         </div>
       </TabPanel>
@@ -94,3 +108,5 @@ const MovieTabs = ({ intro, starting, createdby, genre }) => {
       </TabPanel>
     </Box>
   );
+};
+export default MovieTabs;
