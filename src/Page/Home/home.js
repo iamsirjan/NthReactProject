@@ -1,5 +1,5 @@
 import React from "react";
-import Button from "../component/button/button";
+import Button from "../../component/button/button";
 import "./home.css";
 import { TbPlayerPlayFilled } from "react-icons/tb";
 

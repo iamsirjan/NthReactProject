@@ -1,0 +1,32 @@
+.movieintroduction li {
+  font-size: 12px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.movieintroduction p {
+  margin-bottom: 50px;
+  font-size: 16px;
+}
+
+.movieintroduction table tr {
+  height: 30px;
+}
+
+.movieinfo-table tr td {
+  color: darkgray;
+  font-size: 14px;
+  letter-spacing: 0.1em;
+  /* margin-right: 80px; */
+  /* width: 40%; */
+}
+
+.movieinfo-table {
+  width: 100%;
+}
+
+table tr .movieinfo-table-td {
+  color: #fff;
+  letter-spacing: 0 em;
+}
