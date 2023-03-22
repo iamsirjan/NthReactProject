@@ -43,9 +43,7 @@ const MovieDetail = ({
           <p className="moviename-big">{title}</p>
           <p classsName="rating-star">
             {rating}
-            <span>
-              <RxStarFilled color="yellow" />
-            </span>
+            <RxStarFilled color="yellow" />
           </p>
         </div>
         <div className="moviedetails-time">

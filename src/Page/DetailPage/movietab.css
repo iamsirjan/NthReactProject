@@ -1,3 +1,23 @@
-.movieintroduction > ul > li > span {
+.movieintroduction li {
+  font-size: 12px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.movieintroduction p {
+  margin-bottom: 50px;
+}
+
+.movieintroduction span {
   color: darkgray;
+  font-size: 12px;
+  letter-spacing: 0.1em;
+  margin-right: 80px;
+}
+
+.movieintroduction ul {
+  display: table;
+  margin-left: 0;
+  padding-left: 0;
+  list-style: none;
 }

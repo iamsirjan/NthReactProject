@@ -4,6 +4,7 @@ import Tabs from "@mui/material/Tabs";
 import Tab from "@mui/material/Tab";
 import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
+import "./movietab.css";
 
 function TabPanel(props) {
   const {
@@ -71,14 +72,15 @@ const MovieTabs = ({ intro, starting, createdby, genre }) => {
             <p>{intro}</p>
             <ul>
               <li>
-                <span>Starting </span>
+                <span clsssName="movieintroduction-span1">Starting </span>
                 {starting}
               </li>
               <li>
-                <span>Created by</span> {createdby}
+                <span className="movieintroduction-span2">Created by</span>
+                {createdby}
               </li>
               <li>
-                <span>Genre</span> {genre}
+                <span className="movieintroduction-span3">Genre</span> {genre}
               </li>
             </ul>
           </div>

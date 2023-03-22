@@ -18,32 +18,47 @@
   flex-direction: column;
   width: 60%;
   padding: 0px 50px 0px 80px;
+  margin-top: 50px;
 }
 .moviename-rating {
   display: flex;
   color: #fff;
   justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+
+.moviename-big {
+  margin: 0;
   font-size: 30px;
   font-weight: 500;
-  margin: 0;
+  letter-spacing: 0.2em;
 }
+
 .rating-star {
-  font-size: 10px;
-  font-weight: 10;
+  font-size: 20px;
 }
 
 .moviedetails-time {
-  display: flex;
-  flex-direction: row !important;
+  padding: 0px;
+  margin-top: -20px;
+  margin-bottom: 50px;
 }
 
-.moviedetails-time ul {
-  padding: 0;
+.moviedetails-time li span {
+  margin-left: 3px;
 }
+
 .moviedetails-time li {
-  list-style: none;
+  /* list-style: none; */
   text-decoration: none;
   color: darkgray;
+  display: inline-block;
+  margin-right: 12px;
+}
+.moviedetails-time ul {
+  padding: 0;
+  margin-top: 10px;
 }
 
 .navbar-detailpage {
@@ -93,6 +108,10 @@
   padding: 0;
 }
 
-.navbar-detailpage {
-  color: #fff;
+.css-heg063-MuiTabs-flexContainer {
+  justify-content: space-between !important;
+}
+
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root {
+  padding: 12px 16px 12px 0px !important;
 }
