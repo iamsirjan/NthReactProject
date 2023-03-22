@@ -94,5 +94,3 @@ const MovieTabs = ({ intro, starting, createdby, genre }) => {
       </TabPanel>
     </Box>
   );
-};
-export default MovieTabs;
