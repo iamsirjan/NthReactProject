@@ -79,12 +79,16 @@
 
 .moviedetails-previous {
   display: flex;
-  flex-direction: row !important;
-  align-self: bottom;
+  /* flex-direction: row; */
+
   /* justify-content: space-between; */
   gap: 25px;
   /* position:absolute;
    bottom:0; */
+}
+
+.moviedetail-posters {
+  margin-top: auto;
 }
 
 .css-1h9z7r5-MuiButtonBase-root-MuiTab-root.Mui-selected {
@@ -114,4 +118,8 @@
 
 .css-1h9z7r5-MuiButtonBase-root-MuiTab-root {
   padding: 12px 16px 12px 0px !important;
+}
+
+.css-1gsv261 {
+  color: #111414 !important;
 }

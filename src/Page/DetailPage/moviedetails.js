@@ -68,18 +68,19 @@ const MovieDetail = ({
           />
         </div>
 
-        <div className="movie-related">
-          <p>Related Movies</p>
-        </div>
-
-        <div className="moviedetails-previous">
-          {movies.map((data, i) => (
-            <ImageThumnailsComponent
-              key={i}
-              image={data.image}
-              moviename={data.moviename}
-            />
-          ))}
+        <div className="moviedetail-posters">
+          <div className="movie-related">
+            <p>Related Movies</p>
+          </div>
+          <div className="moviedetails-previous">
+            {movies.map((data, i) => (
+              <ImageThumnailsComponent
+                key={i}
+                image={data.image}
+                moviename={data.moviename}
+              />
+            ))}
+          </div>
         </div>
       </div>
     </div>
