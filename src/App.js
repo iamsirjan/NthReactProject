@@ -7,9 +7,8 @@ function App() {
   return (
     <div className="App">
       {/* <NavbarComponent/> */}
-      {/* <Home /> */}
-      <Button title="play" background="white" lefticon={<GrPlayFill />} />
-      <Button title="okay" background="grey" />
+      <Home /> 
+      
     </div>
   );
 }
