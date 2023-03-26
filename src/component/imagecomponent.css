@@ -1,19 +1,20 @@
 .movie-cards {
-    margin-right: 0px;
-   }
-
+  margin-right: 0px;
+  width: 250px;
+  /* height: 200px; */
+}
 
 .image-card img {
-    position: absolute;
+  position: absolute;
 }
 
-.movie-name  {
-    color:#fff;
+.movie-name {
+  color: #fff;
 }
 
-.movie-name  p {
-    font-size:10px;
-    position: relative;
-    bottom: 28px;
-    left:5px;
+.movie-name p {
+  font-size: 10px;
+  position: relative;
+  bottom: 28px;
+  left: 5px;
 }

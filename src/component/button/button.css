@@ -1,0 +1,10 @@
+.button-container button {
+  padding: 95px, 95px;
+  border-radius: 8px;
+  color: black;
+  /* font-weight: bold; */
+  border: none;
+  font-size: 35px;
+  display: flex;
+  align-items: center;
+}

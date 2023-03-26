@@ -1,4 +1,7 @@
-import MovieDetail from "./Page/DetailPage/moviedetails";
+import NavbarComponent from "./layout/navbar/navbar";
+import Home from "./page/Home/home";
+
+import MovieDetail from "./page/DetailPage/moviedetails";
 
 function App() {
   const moviesinfo = [
@@ -20,7 +23,10 @@ function App() {
   ];
   return (
     <div className="App">
-      {moviesinfo.map((data, i) => (
+      <NavbarComponent />
+      <Home />
+
+      {/* {moviesinfo.map((data, i) => (
         <MovieDetail
           title={data.title}
           rating={data.rating}
@@ -32,7 +38,7 @@ function App() {
           createdby={data.summary.createdby}
           genre={data.summary.genre}
         />
-      ))}
+      ))} */}
     </div>
   );
 }
