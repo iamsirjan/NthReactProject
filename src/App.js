@@ -26,7 +26,7 @@ function App() {
       <NavbarComponent />
       <Home />
 
-      {moviesinfo.map((data, i) => (
+      {/* {moviesinfo.map((data, i) => (
         <MovieDetail
           title={data.title}
           rating={data.rating}
@@ -38,7 +38,7 @@ function App() {
           createdby={data.summary.createdby}
           genre={data.summary.genre}
         />
-      ))}
+      ))} */}
     </div>
   );
 }

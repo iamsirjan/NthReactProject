@@ -2,6 +2,7 @@ import React from "react";
 import Button from "../../component/button/button";
 import "./home.css";
 import { TbPlayerPlayFilled } from "react-icons/tb";
+import ImageThumnailsComponent from "../../component/imagecomponent";
 
 export default function Home() {
   const description = {
@@ -21,8 +22,12 @@ export default function Home() {
         style={{
           backgroundImage:
             "url(" +
-            "https://images.unsplash.com/photo-1598879722898-d55323f416c4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80" +
+            "https://images.unsplash.com/photo-1483982258113-b72862e6cff6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" +
             ")",
+          // backgroundImage:
+          //   "url(" +
+          //   "https://images.unsplash.com/photo-1598879722898-d55323f416c4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80" +
+          //   ")",
           //   backgroundImage: `url("https://images.unsplash.com/photo-1598879722898-d55323f416c4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80")`,
         }}
       >
@@ -45,6 +50,16 @@ export default function Home() {
             />
             <Button title="More Info" background="grey" color="white" />
           </div>
+        </div>
+        <div className="card-component">
+          <ImageThumnailsComponent
+            image="https://images.unsplash.com/photo-1478720568477-152d9b164e26?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+            moviename="sachin"
+          />
+          <ImageThumnailsComponent
+            image="https://images.unsplash.com/photo-1557040135-9dc2a6b60411?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjF8fGZpbG0lMjBwb3N0ZXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+            moviename="Manandhar"
+          />
         </div>
       </div>
     </>
