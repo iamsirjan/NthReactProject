@@ -21,7 +21,8 @@ export default function Button({
             width: width ? width : "fit-content",
             marginRight: marginRight ? marginRight : "none",
             marginLeft: marginLeft ? marginLeft : "none",
-            color:color ? color : "black",
+            color: color ? color : "black",
+            fontSize: "23px",
           }}
         >
           <span style={{ marginRight: "10px", color: "black" }}>

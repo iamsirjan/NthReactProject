@@ -1,6 +1,13 @@
 .home-container {
   width: 100%;
-  height: 100vh;
+  height: 60vh;
+}
+.home {
+  background-color: black;
+
+  min-height: 100vh;
+  max-height: 100%;
+  width: 100%;
 }
 
 .home-container img {
@@ -54,11 +61,25 @@
 .main-title h4 {
   color: white;
   font-size: 20px;
+  /* font-family: "Lato", sans-serif; */
+  font-family: "lato";
 }
 .button-component {
   display: flex;
 }
 .card-component {
   display: flex;
-  
+  gap: 5px;
+  margin-top: 20px;
+  /* padding-top: 10px; */
+}
+
+.card-container {
+  padding-left: 25px;
+}
+
+.card-container-title h3 {
+  margin: 0;
+  padding-top: 10px;
+  color: #fff;
 }

@@ -84,19 +84,6 @@ const MovieTabs = ({ intro, starting, createdby, genre }) => {
                 <td className="movieinfo-table-td">{genre}</td>
               </tr>
             </table>
-            {/* <ul>
-              <li>
-                <span className="movieintroduction-span">Starting </span>
-                {starting}
-              </li>
-              <li>
-                <span className="movieintroduction-span">Created by</span>
-                {createdby}
-              </li>
-              <li>
-                <span className="movieintroduction-span">Genre</span> {genre}
-              </li>
-            </ul> */}
           </div>
         </div>
       </TabPanel>
